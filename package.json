@@ -1,0 +1,26 @@
+{
+  "name": "nodeexpressmonitoring",
+  "version": "1.0.0",
+  "description": "a sample application to implement newrelic monitoring for nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "monitoring",
+    "newrelic"
+  ],
+  "author": "Clement Okyere",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "newrelic": "^8.4.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.7.0"
+  }
+}
