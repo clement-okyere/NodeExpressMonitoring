@@ -20,7 +20,7 @@
 
 - Add .env file to the project root
 - Set environment variables for NEW_RELIC_APP_NAME,
-    NEW_RELIC_LICENSE_KEY  and PORT in .env file.
+    NEW_RELIC_LICENSE_KEY, POSTGRESQL_CONNSTRING and PORT in .env file.
 -
 
 #### To run this application in terminal, run the commands below:
